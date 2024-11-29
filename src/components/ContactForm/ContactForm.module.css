@@ -1,0 +1,42 @@
+.container {
+  display: block;
+  margin: 0 auto;
+}
+.form {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  padding: 10px 15px 10px 15px;
+  outline: none;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  border-radius: 30px;
+}
+
+.button {
+  width: 140px;
+  height: 30px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #00000055;
+  color: aliceblue;
+  transition: background-color 0.5s;
+}
+.button:focus,
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+}
