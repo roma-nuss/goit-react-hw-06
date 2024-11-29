@@ -2,7 +2,7 @@ import s from "./ContactNotFound.module.css";
 
 const ContactNotFound = () => {
   return (
-    <ul>
+    <ul className={s.list}>
       <li className={s.item}>
         <p className={s.text}>contacts not found</p>
       </li>
